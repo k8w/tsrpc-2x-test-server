@@ -1,7 +1,7 @@
 FROM twoeo/pm2-node
 
 # npm install
-ADD package.json /src
+ADD package.json /src/
 WORKDIR /src
 RUN npm i
 
