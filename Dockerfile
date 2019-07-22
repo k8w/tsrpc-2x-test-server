@@ -7,8 +7,11 @@ RUN npm i
 
 ADD . /src
 RUN npm run build
-RUN mv dist /app
-RUN rm -rf /src
+RUN rm -rf /app \
+    && mv dist /app \
+    && mv node_modules /app/
+    && rm -rf /src
+
 
 ENV INSTANCE_NUM max
 
