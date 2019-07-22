@@ -11,3 +11,5 @@ RUN mv dist /app
 RUN rm -rf /src
 
 ENV INSTANCE_NUM max
+
+WORKDIR /app
