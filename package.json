@@ -1,0 +1,25 @@
+{
+  "name": "tsrpc-2x-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k8w/tsrpc-2x-test-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k8w/tsrpc-2x-test-server/issues"
+  },
+  "homepage": "https://github.com/k8w/tsrpc-2x-test-server#readme",
+  "dependencies": {
+    "tsrpc": "^2.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
