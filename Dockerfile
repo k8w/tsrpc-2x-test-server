@@ -9,7 +9,7 @@ ADD . /src
 RUN npm run build
 RUN rm -rf /app \
     && mv dist /app \
-    && mv node_modules /app/
+    && mv node_modules /app/ \
     && rm -rf /src
 
 
